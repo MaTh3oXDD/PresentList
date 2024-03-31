@@ -2,18 +2,18 @@
  {
     -fx-background-color: pink;
     -fx-background-radius: 14;
-    -fx-margin: 0px;
     -fx-padding: -1px;
-
  }
 
 .table-view .column-header-background
 {
     -fx-background-color:  #393E41;
-    -fx-background-radius: 14;
+    -fx-background-radius: 14 14 0 0;
+    -fx-min-width:60px
 }
 .table-view .column-header .label {
     -fx-text-fill: white;
+    -fx-padding:15px
 }
 
 .table-view .column-header
@@ -27,3 +27,28 @@
 {
 
 }
+.anchor-pane
+{
+-fx-min-width:600px
+}
+#LeftMenu
+{
+  -fx-background-color:  #393E41;
+   -fx-max-width: 200px;
+   -fx-min-width: 100px;
+   -fx-background-radius:0 14 14 0;
+}
+#Table
+{
+    -fx-padding: 30px;
+    -fx-border-insets: 30px;
+    -fx-background-insets: 30px;
+}
+#ZajeciaLabel
+{
+    -fx-padding: 10px;
+    -fx-background-color:  #F6F7EB;
+    -fx-background-radius:14 14 14 14;
+
+}
+
